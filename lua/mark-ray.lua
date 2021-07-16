@@ -5,10 +5,9 @@ local M = {}
 -- Create commands
 local function create_commands()
   vim.cmd("command! -bang -nargs=0 MarkRayShow :lua require('mark-ray').show()")
-  vim.cmd("command! -bang -nargs=0 MarkRayShow :lua require('mark-ray').show()")
-  vim.cmd("command! -bang -nargs=0 MarkRayClose :lua require('mark-ray').close()")
-  vim.cmd("command! -bang -nargs=0 MarkRayStart :lua require('mark-ray').start()")
-  vim.cmd("command! -bang -nargs=0 MarkRayStop :lua require('mark-ray').stop()")
+  vim.cmd("command! -bang -nargs=0 MarkRayClose :lua require('mark-ray').close_window()")
+  vim.cmd("command! -bang -nargs=0 MarkRayStart :lua require('mark-ray').ray_start()")
+  vim.cmd("command! -bang -nargs=0 MarkRayStop :lua require('mark-ray').ray_stop()")
 end
 
 --TODO: Write function
