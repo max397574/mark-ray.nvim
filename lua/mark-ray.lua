@@ -68,7 +68,7 @@ function M.show()
     0,    -- put to first line
     45,    -- last line index
     false,-- don't error on out of bounds
-    parse_marks(vim.fn.execute("jumps"))
+    parse_marks(vim.fn.execute("marks"))
   )
 end
 
