@@ -15,7 +15,7 @@ local function parse_marks(tmp)
   local result = {}
   table.insert(result, header)
   for s in tmp:gmatch("[^\n]+") do
-    table.insert(result, string.sub(s,0,5) .. string.sub(s,16))
+    table.insert(result, string.sub(s,0,10) .. string.sub(s,16))
   end
   table.insert(result,"")
   table.insert(result,"")
