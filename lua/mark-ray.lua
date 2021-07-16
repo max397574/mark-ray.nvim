@@ -10,7 +10,6 @@ local function create_commands()
   vim.cmd("command! -bang -nargs=0 MarkRayStop :lua require('mark-ray').ray_stop()")
 end
 
---TODO: Write function
 local function parse_marks(tmp)
   local result = {}
   local header = " MARK  LINE  FILE/TEXT"
