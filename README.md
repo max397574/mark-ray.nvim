@@ -30,10 +30,12 @@ Usage
 "Stop Plugin
 :MarkRayStop
 ```
+Screenshots
+-----------
+![screenshot](resources/screen_1.jpeg)
 
 
 Credits
 -------
 This Plugin is heavily inspired by
 [jump-ray](https://github.com/sbulav/jump-ray.nvim).
-![screenshot](resources/screen_1.jpeg)
