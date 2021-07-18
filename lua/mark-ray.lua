@@ -33,7 +33,6 @@ local function create_window()
   local width = 40
   local row = 1
   local col = w - width
-  -- NOTE: Perhaps change these
   local config = {
     style="minimal",
     relative='editor',
